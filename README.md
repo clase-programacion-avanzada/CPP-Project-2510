@@ -183,7 +183,7 @@ La compañía aérea ya cuenta con un archivo de texto llamado `vuelos.txt` que 
     #
 ```
 
-Por ejemplo, en la primera línea del archivo se encuentra el nombre de la empresa (Avianca). En la segunda línea se especifican los códigos y el número de asientos de cada avión, separados por el carácter "_".
+Por ejemplo, en la primera línea del archivo se encuentra el nombre de la empresa (Avianca). En la segunda línea se especifican los códigos y el número de asientos de cada avión, separados por el carácter "-".
 
 Si hay más de un avión, se separa por comas; por ejemplo, Avianca tiene dos aviones, el código del primero es 6052 con 20 asientos y el del segundo es 6053 con 30 asientos.
 
