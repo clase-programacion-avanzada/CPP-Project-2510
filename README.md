@@ -13,11 +13,13 @@ Se recomienda estudiar los siguientes temas antes de realizar el proyecto (estos
    </details>
 
 2. ¿Qué hará el siguiente código?
+
     ```cpp
         int arr[5] = {1,10, 8, 3, 4, 51};
         int ptr = arr;
         * (ptr + 2) = 10;
     ```
+
     - Asignará el valor 10 al primer elemento de arr.
     - Asignará el valor 10 al tercer elemento de arr.
     - Asignará el valor 10 al segundo elemento de arr.
@@ -60,6 +62,7 @@ Se recomienda estudiar los siguientes temas antes de realizar el proyecto (estos
    </details>
 
 6. ¿Cuál de las siguientes notaciones es correcta para acceder al nombre de la estructura persona utilizando el apuntador perPtr?
+
     ```cpp
     struct Persona {
          string nombre;
@@ -74,6 +77,7 @@ Se recomienda estudiar los siguientes temas antes de realizar el proyecto (estos
         return 0;
     }
     ```
+
     - `perPtr.nombre`
     - `perPtr->nombre`
     - `*(perPtr->nombre)`
@@ -118,7 +122,7 @@ Se recomienda estudiar los siguientes temas antes de realizar el proyecto (estos
     - `free(p);`
     - `delete p[];`
     - `delete[] p;`
-    
+
     <details>
     <summary>Respuesta</summary>
     La forma correcta es `delete[] p;`.
@@ -136,11 +140,13 @@ Una compañía aérea necesita desarrollar un sistema básico para gestionar avi
 4. **Nacionalidad**: cadena de caracteres de 30 bytes.
 
 ### Información de un asiento:
+
 1. **Número de asiento**: entero (int).
 2. **Ocupado**: booleano; `false` si está vacío y `true` si está ocupado.
 3. **Pasajero**: estructura `Pasajero`; hay un pasajero, en este campo se almacenan sus datos.
 
 ### Información de un vuelo:
+
 1. **Código de vuelo**: cadena de caracteres de 10 bytes.
 2. **Origen**: cadena de caracteres de 50 bytes.
 3. **Destino**: cadena de caracteres de 50 bytes.
@@ -148,18 +154,20 @@ Una compañía aérea necesita desarrollar un sistema básico para gestionar avi
 5. **Asientos**: arreglo dinámico; la cantidad de asientos varía según el avión.
 
 ### Información de un avión:
+
 1. **Nombre de la empresa**: cadena de caracteres de 50 bytes.
 2. **Código del avión**: cadena de caracteres de 10 bytes.
 3. **Número de asientos**: entero (int).
 4. **Vuelos**: arreglo dinámico, la cantidad de vuelos varía.
 
 ### Información de la compañía:
+
 1. **Aviones**: arreglo dinámico; la compañía puede agregar más aviones a una empresa específica.
 2. **Número de aviones**: entero (int).
 
 La compañía aérea ya cuenta con un archivo de texto llamado `vuelos.txt` que contiene información sobre vuelos y aviones. Un ejemplo del archivo es el siguiente:
 
-```
+```csv
     Avianca
     6052-20,6053-30
     6052,AV1120,Bogota,Rio de Janeiro,21/11/2024
@@ -174,6 +182,7 @@ La compañía aérea ya cuenta con un archivo de texto llamado `vuelos.txt` que 
     2040,AA1121,Miami,Madrid,12/12/2024
     #
 ```
+
 Por ejemplo, en la primera línea del archivo se encuentra el nombre de la empresa (Avianca). En la segunda línea se especifican los códigos y el número de asientos de cada avión, separados por el carácter "_".
 
 Si hay más de un avión, se separa por comas; por ejemplo, Avianca tiene dos aviones, el código del primero es 6052 con 20 asientos y el del segundo es 6053 con 30 asientos.
