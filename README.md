@@ -201,7 +201,7 @@ A partir de la información proporcionada, se le solicita implementar los siguie
 
 **Nota**: Se le ha pedido que no haga uso de ninguna de las estructuras usadas en los anteriores talleres, tales como `List`,  `TextFileHandler` o `BinaryFileHandler`. Además, debe retornar exactamente lo que se pide en el enunciado, sin agregar ni quitar nada. Cuando le pidan usar cadenas de caracteres, puede usar `string` o `char*`.
 
-### Probando el código:
+## Probando el código:
 
 Para probar el código, si no ha podido cargar el archivo de texto, use la opción 0, que le permitirá crear una compañía con la información del archivo de texto.
 
