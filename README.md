@@ -191,7 +191,7 @@ Finalmente, en las demás líneas se encuentran los vuelos. El primer valor es e
 
 A partir de la información proporcionada, se le solicita implementar los siguientes servicios:
 
-1. **(5 puntos) Definir la estructura de pasajero y asiento**: escribir la definición de la estructura de [pasajero](libs/Asiento.hh#L10) y [asiento](ibs/Pasajero.hh#L12).</br></br>
+1. **(5 puntos) Definir la estructura de pasajero y asiento**: escribir la definición de la estructura de [pasajero](libs/Asiento.hh#L10) y [asiento](libs/Pasajero.hh#L12).</br></br>
 2. **(15 puntos) Agregar un avión a la compañía**: desarrollar una función que permita agregar un avión a la [compañía](libs/Compania.hh#L25), en la que se envíe como parámetro la compañía por referencia y el avión por valor. </br></br>
 3. **(5 puntos) Buscar avión por código**: desarrollar una [función](libs/Compania.hh#L32) que, dado el código de un avión, lo busque en el arreglo de aviones de la compañía y lo retorne por referencia. Si no lo encuentra, debe retornar `nullptr`. </br></br>
 4. **(20 puntos) Agregar un vuelo a un avión**: desarrollar una función [función](libs/Compania.hh#L41) que, a partir de una cadena de caracteres (línea del vuelo en el archivo de texto), busque el avión con el método anterior y agregue el vuelo al arreglo de vuelos del avión.</br></br>
